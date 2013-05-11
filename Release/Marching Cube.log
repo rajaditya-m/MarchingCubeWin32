@@ -1,0 +1,41 @@
+﻿Build started 5/11/2013 5:13:34 PM.
+     1>Project "C:\Users\rmuk\documents\visual studio 2012\Projects\Marching Cube\Marching Cube.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\RDM Files\Program Files\Visual Studio Express\VC\bin\CL.exe /c /I"E:\RDM Files\OpenGL Headers" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>E:\RDM Files\OpenGL Headers\Oracle.h(66): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>e:\rdm files\opengl headers\mat.h(698): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\rdm files\opengl headers\mat.h(699): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\rdm files\opengl headers\mat.h(700): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\rdm files\opengl headers\mat.h(721): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\rdm files\opengl headers\mat.h(723): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\rdm files\opengl headers\mat.h(726): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\rdm files\opengl headers\mat.h(743): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\rmuk\documents\visual studio 2012\projects\marching cube\meshrep.h(134): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rmuk\documents\visual studio 2012\projects\marching cube\meshrep.h(150): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rmuk\documents\visual studio 2012\projects\marching cube\meshrep.h(177): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(41): warning C4091: 'typedef ' : ignored on left of 'GridData' when no variable is declared
+     1>main.cpp(90): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>main.cpp(93): warning C4305: '+=' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(112): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\RDM Files\Program Files\Visual Studio Express\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>main.cpp(121): warning C4244: '=' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>main.cpp(180): warning C4101: 'ntriang' : unreferenced local variable
+     1>main.cpp(267): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(269): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(271): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(428): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(433): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+       Link:
+         E:\RDM Files\Program Files\Visual Studio Express\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\rmuk\documents\visual studio 2012\Projects\Marching Cube\Release\Marching Cube.exe" /INCREMENTAL:NO /NOLOGO glew32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\rmuk\documents\visual studio 2012\Projects\Marching Cube\Release\Marching Cube.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\rmuk\documents\visual studio 2012\Projects\Marching Cube\Release\Marching Cube.lib" /MACHINE:X86 /SAFESEH Release\glew.obj
+         Release\InitShader.obj
+         Release\main.obj
+            Creating library C:\Users\rmuk\documents\visual studio 2012\Projects\Marching Cube\Release\Marching Cube.lib and object C:\Users\rmuk\documents\visual studio 2012\Projects\Marching Cube\Release\Marching Cube.exp
+         Generating code
+         Finished generating code
+         Marching Cube.vcxproj -> C:\Users\rmuk\documents\visual studio 2012\Projects\Marching Cube\Release\Marching Cube.exe
+     1>Done Building Project "C:\Users\rmuk\documents\visual studio 2012\Projects\Marching Cube\Marching Cube.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.64

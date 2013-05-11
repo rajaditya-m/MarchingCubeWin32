@@ -1,0 +1,12 @@
+﻿Build started 5/8/2013 4:15:04 PM.
+     1>Project "C:\Users\rmuk\documents\visual studio 2012\Projects\Marching Cube\Marching Cube.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         E:\RDM Files\Program Files\Visual Studio Express\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\rmuk\documents\visual studio 2012\Projects\Marching Cube\x64\Debug\Marching Cube.exe" /INCREMENTAL /NOLOGO freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\rmuk\documents\visual studio 2012\Projects\Marching Cube\x64\Debug\Marching Cube.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\rmuk\documents\visual studio 2012\Projects\Marching Cube\x64\Debug\Marching Cube.lib" /MACHINE:X64 x64\Debug\glew.obj
+         x64\Debug\InitShader.obj
+         x64\Debug\main.obj
+     1>LINK : fatal error LNK1104: cannot open file 'freeglut.lib'
+     1>Done Building Project "C:\Users\rmuk\documents\visual studio 2012\Projects\Marching Cube\Marching Cube.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.10
